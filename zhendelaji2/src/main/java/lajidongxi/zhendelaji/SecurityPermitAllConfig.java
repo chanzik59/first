@@ -11,4 +11,10 @@ public class SecurityPermitAllConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().anyRequest().permitAll()
                 .and().csrf().disable();
     }
+    
+    
+    public void test() {
+    	System.out.println(111);
+		
+	}
 }
